@@ -82,7 +82,7 @@ $Win64Archives = @{
     "libmaxminddb/libmaxminddb-1.4.3-1-win64ws.zip" = "ee89944a19ab6e1c873bdecb9fc6205d317c41e6da6ec1d30bc892fddfd143da";
     "libpcap/libpcap-1.10.1-1-win64ws.zip" = "59f8e0e90a3ab5671df561266ed2b02870a6f8f3a895b80c9db19fea9a12ffb2";
     "libsmi/libsmi-svn-40773-win64ws.zip" = "571fcee71d741bf847c3247d4c2e1c42388ca6a9feebe08fc0d4ce053571d15d";
-    "libssh/libssh-0.9.5-win64ws.zip" = "3226fcb89969a77643bd2bca7a1ff6b5a79261b680a09a6bfedb3d40f7a187e3";
+    "libssh/libssh-0.10.4-win64ws.zip" = "d873d093e5d1fd4ab3be2d66acd95ab80a1cc92176c951437e58c303e137bf8a";
     "lua/lua-5.2.4-unicode-win64-vc14.zip" = "e8968d2c7871ce1ea82cbd29ac1b3a2c59d3dec25e483c5e12de85df66f5d928";
     "lz4/lz4-1.9.3-1-win64ws.zip" = "7129515893ffdc439f4ffe9673c4bc43f9042e910bb2607e68dde6b99a1ab058";
     "minizip/minizip-1.2.11-4-win64ws.zip" = "dd6bf24e2d946465ad19aa4f8c38e0db91da6585887935de68011982cd6fb2cb";
@@ -155,7 +155,7 @@ $CleanupItems = @(
 
 # The dev-libs site repository is at
 # https://gitlab.com/wireshark/wireshark-development-libraries
-[Uri] $DownloadPrefix = "https://dev-libs.wireshark.org/windows/packages"
+[Uri] $DownloadPrefix = "https://buglloc.com/wireshark-dev-libs"
 $proxy = $null
 
 # Functions
